@@ -1,0 +1,32 @@
+﻿@model MobileDev.Models.studentDetails
+
+@{
+    Layout = null;
+    ViewBag.Header = "Student Information";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>studentInfo</title>
+    <style>
+        h1{
+            text-align:center;
+        }
+        h2{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1>@ViewBag.Header</h1>
+    
+    <h2>@Model.Name</h2>
+    <h2>@Model.sNumber</h2>
+    <h2>@Model.program</h2>
+    <div> 
+    </div>
+</body>
+</html>
